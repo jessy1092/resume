@@ -1,12 +1,9 @@
-import React      from 'react';
+import React from 'react';
 
-export default React.createClass({
+let IndexPage = () => (
+  <div>
+    <div>'Hi!'</div>
+  </div>
+);
 
-  render() {
-    return (
-      <div>
-        <div>'Hi!'</div>
-      </div>
-    );
-  }
-});
+export default IndexPage;

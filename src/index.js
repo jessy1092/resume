@@ -3,13 +3,10 @@ import IndexPage  from './pages/IndexPage';
 
 import './index.css';
 
-export default React.createClass({
+let App = () => (
+  <div>
+    <IndexPage />
+  </div>
+);
 
-  render() {
-    return (
-      <div>
-        <IndexPage />
-      </div>
-    );
-  }
-});
+export default App;
