@@ -1,0 +1,4 @@
+.travis/
+_public/
+node_modules/
+bower_components/
