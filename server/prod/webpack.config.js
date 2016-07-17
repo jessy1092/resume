@@ -11,11 +11,11 @@ export default {
     app: path.join(__dirname, '../../client/scripts/index'),
     vendor: [
       'babel-polyfill',
-      'd3',
-      'routr',
+      'isomorphic-fetch',
+      'redux',
+      'redux-thunk',
       'react',
-      'react-dom',
-      'superagent'
+      'react-dom'
     ]
   },
   output: {

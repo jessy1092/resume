@@ -10,11 +10,11 @@ export default {
     vendor: [
       'webpack-hot-middleware/client',
       'babel-polyfill',
-      'd3',
-      'routr',
+      'isomorphic-fetch',
+      'redux',
+      'redux-thunk',
       'react',
-      'react-dom',
-      'superagent'
+      'react-dom'
     ]
   },
   output: {

@@ -1,5 +1,10 @@
-import React        from 'react';
-import ReactDOM     from 'react-dom';
-import App          from '../../src';
+import React          from 'react';
+import ReactDOM       from 'react-dom';
+import App            from '../../src';
+import configureStore from '../../src/store';
 
-ReactDOM.render(<App />, document.getElementById('content'));
+
+ReactDOM.render(
+  <App store={configureStore()}/>,
+  document.getElementById('content')
+);
