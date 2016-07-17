@@ -4,8 +4,7 @@ import React         from 'react';
 import IndexPage      from './pages/IndexPage';
 import Provider       from './utility/Provider';
 
-// FIXME: Parse error on server side
-// import './index.css';
+import styles from './index.css';
 
 
 let App = ({store}) => (
