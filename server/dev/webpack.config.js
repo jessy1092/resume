@@ -2,6 +2,7 @@ import path         from 'path';
 import webpack      from 'webpack';
 import babelConfig  from './babel.config.client';
 import autoprefixer from 'autoprefixer';
+import lost         from 'lost';
 
 export default {
   devtool: 'cheap-module-eval-source-map',
@@ -64,7 +65,10 @@ export default {
     }]
   },
   postcss: function() {
-    return [autoprefixer()];
+    return [
+      lost,
+      autoprefixer()
+    ];
   },
   node: {
     fs: 'empty'

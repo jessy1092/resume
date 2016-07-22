@@ -2,6 +2,8 @@ import React from 'react';
 
 import {fetchResume} from '../actions';
 
+import styles from './index.css';
+
 class IndexPage extends React.Component {
 
   componentDidMount() {
@@ -22,9 +24,9 @@ class IndexPage extends React.Component {
     console.log(store.getState());
 
     return (
-      <div>
+      <section className={styles.section}>
         <div>'Hi!'</div>
-      </div>
+      </section>
     );
   }
 }
