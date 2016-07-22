@@ -36,7 +36,7 @@ function htmlGenerator(callback) {
   let store = configureStore();
 
   // Fetch resume data, then generate index page
-  store.dispatch(() => new Promise((resolve, reject) =>
+  return store.dispatch(() => new Promise((resolve, reject) =>
     fs.readFile('./client/data/resume.json', 'utf8', (error, data) => {
       if (error) {
         reject(error);
@@ -46,9 +46,10 @@ function htmlGenerator(callback) {
   ).then(
     data => JSON.parse(data)
   ).then(
-    json => store.dispatch(resiveResume(json))
-  ).then(() =>
-    callback(serverRender(store))
+    json => {
+      store.dispatch(resiveResume(json));
+      return serverRender(store)
+    }
   );
 }
 

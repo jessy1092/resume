@@ -25,7 +25,7 @@ app.use(express.static(path.resolve(BUILD_PATH)));
 app.all('*', (req, res) => {
   console.log('URL:' + req.url);
 
-  htmlGenerator(template => res.send(template));
+  htmlGenerator().then(template => res.send(template));
 
   // res.send(template);
   // res.sendFile(path.resolve(`${BUILD_PATH}/index.html`));
