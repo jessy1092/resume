@@ -1,6 +1,8 @@
 import React from 'react';
 
 import {fetchResume} from '../actions';
+import WorkSection from '../components/WorkSection';
+
 
 import styles from './index.css';
 
@@ -21,11 +23,11 @@ class IndexPage extends React.Component {
   render() {
     let {store} = this.context;
 
-    console.log(store.getState());
+    let {work = []} = store.getState().resume;
 
     return (
       <section className={styles.section}>
-        <div>'Hi!'</div>
+        <WorkSection data={work}/>
       </section>
     );
   }

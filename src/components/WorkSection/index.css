@@ -1,0 +1,36 @@
+
+.section {
+  lost-utility: clearfix;
+}
+
+.section > div {
+  lost-column: 1/4 0;
+  /*background-color: green;*/
+  /*height: 100px;*/
+}
+
+.section > div:nth-child(2) {
+  lost-column: 3/4 0;
+}
+
+.name {
+  font-size: 32px;
+  text-align: right;
+}
+
+.detail {
+  font-size: 16px;
+}
+
+.detail li {
+  line-height: normal;
+}
+
+.position {
+  font-size: 24px;
+}
+
+.company {
+  font-size: 24px;
+  text-align: right;
+}
