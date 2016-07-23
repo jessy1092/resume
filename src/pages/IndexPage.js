@@ -5,6 +5,7 @@ import WorkSection    from '../components/WorkSection';
 import ProjectSection from '../components/ProjectSection';
 import Header         from '../components/Header';
 import Divider        from '../components/Divider';
+import About          from '../components/About';
 
 
 import styles from './index.css';
@@ -28,12 +29,15 @@ class IndexPage extends React.Component {
 
     let {
       work = [],
-      projects = []
+      projects = [],
+      basics = {}
     } = store.getState().resume;
 
     return (
       <section className={styles.section}>
         <Header/>
+        <Divider/>
+        <About data={basics}/>
         <Divider/>
         <WorkSection data={work}/>
         <Divider/>

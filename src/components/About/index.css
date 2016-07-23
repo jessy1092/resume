@@ -1,0 +1,36 @@
+
+.section {
+  lost-utility: clearfix;
+}
+
+.section > div {
+  lost-column: 1/4 0;
+}
+
+.section > div:nth-child(2) {
+  lost-column: 3/4 0;
+}
+
+.name {
+  font-size: 24px;
+  text-align: right;
+}
+
+.profileSection {
+  lost-utility: clearfix;
+}
+
+.profileSection > div {
+  lost-column: 1/2;
+  font-size: 16px;
+}
+
+.profileSection a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #72857D;
+}
+
+.profileSection a:hover {
+  color: #829492;
+}
