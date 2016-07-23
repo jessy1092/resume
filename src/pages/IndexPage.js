@@ -2,6 +2,7 @@ import React from 'react';
 
 import {fetchResume} from '../actions';
 import WorkSection from '../components/WorkSection';
+import ProjectSection from '../components/ProjectSection';
 
 
 import styles from './index.css';
@@ -23,11 +24,15 @@ class IndexPage extends React.Component {
   render() {
     let {store} = this.context;
 
-    let {work = []} = store.getState().resume;
+    let {
+      work = [],
+      projects = []
+    } = store.getState().resume;
 
     return (
       <section className={styles.section}>
         <WorkSection data={work}/>
+        <ProjectSection data={projects}/>
       </section>
     );
   }

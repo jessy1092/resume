@@ -1,0 +1,49 @@
+
+.section {
+  lost-utility: clearfix;
+}
+
+.section > div {
+  lost-column: 1/4 0;
+}
+
+.section > div:nth-child(2) {
+  lost-column: 3/4 0;
+}
+
+.detailSection {
+  lost-utility: clearfix;
+}
+
+.detailSection > div {
+  lost-column: 1/2;
+}
+
+.name {
+  font-size: 24px;
+  text-align: right;
+}
+
+.detail {
+  font-size: 16px;
+}
+
+.detail li {
+  line-height: normal;
+}
+
+.projectName {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #72857D;
+}
+
+.projectName:hover {
+  color: #829492;
+}
+
+.category {
+  font-size: 20px;
+  text-align: right;
+}
