@@ -11,8 +11,16 @@
   lost-column: 3/4 0;
 }
 
+.detailSection {
+  lost-utility: clearfix;
+}
+
+.detailSection > div {
+  lost-column: 1/2;
+}
+
 .name {
-  font-size: 32px;
+  font-size: 24px;
   text-align: right;
 }
 
@@ -25,10 +33,10 @@
 }
 
 .position {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .company {
-  font-size: 24px;
+  font-size: 20px;
   text-align: right;
 }

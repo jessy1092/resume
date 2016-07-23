@@ -7,7 +7,7 @@ const WorkDetail = ({
   company, position, startDate, endDate, highlights
 }) => (
   <div>
-    <section className={styles.section}>
+    <section className={styles.detailSection}>
       <div className={styles.position}>{position}</div>
       <div className={styles.company}>{company}</div>
     </section>
