@@ -1,5 +1,5 @@
 
-import React      from 'react';
+import React from 'react';
 
 import styles from './index.css';
 
@@ -20,7 +20,7 @@ const WorkDetail = ({
 
 const WorkSection = ({data}) => (
   <section className={styles.section}>
-    <div className={styles.name}>經歷</div>
+    <div className={styles.name}>工作經歷</div>
     <div className={styles.detail}>
       {data.map(work => <WorkDetail key={work.company} {...work}/>)}
     </div>
