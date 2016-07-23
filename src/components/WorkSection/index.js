@@ -13,7 +13,7 @@ const WorkDetail = ({
     </section>
     <div>{`${startDate} ~ ${endDate}`}</div>
     <ul>
-      {highlights.map(highlight => <li>{highlight}</li>)}
+      {highlights.map((highlight, i) => <li key={i}>{highlight}</li>)}
     </ul>
   </div>
 );
@@ -22,7 +22,7 @@ const WorkSection = ({data}) => (
   <section className={styles.section}>
     <div className={styles.name}>經歷</div>
     <div className={styles.detail}>
-      {data.map(work => <WorkDetail {...work}/>)}
+      {data.map(work => <WorkDetail key={work.company} {...work}/>)}
     </div>
   </section>
 );

@@ -45,7 +45,7 @@
         "架設 Gitlab ，協助導入 CI、git 版本控制，增進團隊開發流程",
         "制定新產品的 Command line tool 架構，加強彈性方便擴展指令，並讓團隊更好協同開發",
         "維護 iSCSI module，幫客人處理 iSCSI protocol 上的問題，須幫忙分析效能瓶頸、定位問題、改善漏洞等等",
-        " 維護 SNMP module，依客戶需求增加資訊，以便能更好的管理機器，協助支援 SNMPv3",
+        "維護 SNMP module，依客戶需求增加資訊，以便能更好的管理機器，協助支援 SNMPv3",
         "開發 NVMe driver ，使 Infortrend 儲存設備可以支援新一代 SSD"
       ]
     },
