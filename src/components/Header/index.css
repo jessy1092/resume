@@ -1,0 +1,16 @@
+
+.section {
+  lost-utility: clearfix;
+}
+
+.section > div {
+  lost-column: 1/4 0;
+}
+
+.section > div:nth-child(2) {
+  lost-column: 3/4 0;
+}
+
+.name {
+  font-size: 28px;
+}

@@ -1,8 +1,10 @@
 import React from 'react';
 
-import {fetchResume} from '../actions';
-import WorkSection from '../components/WorkSection';
+import {fetchResume}  from '../actions';
+import WorkSection    from '../components/WorkSection';
 import ProjectSection from '../components/ProjectSection';
+import Header         from '../components/Header';
+import Divider        from '../components/Divider';
 
 
 import styles from './index.css';
@@ -31,7 +33,10 @@ class IndexPage extends React.Component {
 
     return (
       <section className={styles.section}>
+        <Header/>
+        <Divider/>
         <WorkSection data={work}/>
+        <Divider/>
         <ProjectSection data={projects}/>
       </section>
     );
