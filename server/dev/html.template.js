@@ -14,6 +14,7 @@ export default ({title, ogTitle, description, image, url, keywords, html}) => (
   <meta property="og:url" content="${url}" />
   <title>${title}</title>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
   <div id="content">${html}</div>
