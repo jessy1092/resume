@@ -5,6 +5,7 @@ import WorkSection      from '../components/WorkSection';
 import ProjectSection   from '../components/ProjectSection';
 import VolunteerSection from '../components/VolunteerSection';
 import EducationSection from '../components/EducationSection';
+import SkillSection     from '../components/SkillSection';
 import Header           from '../components/Header';
 import Divider          from '../components/Divider';
 import About            from '../components/About';
@@ -33,6 +34,7 @@ class IndexPage extends React.Component {
       projects = [],
       volunteer = [],
       education = [],
+      skills = [],
       basics = {}
     } = store.getState().resume;
 
@@ -49,6 +51,8 @@ class IndexPage extends React.Component {
         <VolunteerSection data={volunteer}/>
         <Divider/>
         <EducationSection data={education}/>
+        <Divider/>
+        <SkillSection data={skills}/>
       </section>
     );
   }
