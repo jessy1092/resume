@@ -20,9 +20,12 @@ const WorkDetail = ({
 
 const WorkSection = ({data}) => (
   <section className={styles.section}>
-    <div className={styles.name}>工作經歷</div>
+    <div className={styles.name}>經歷</div>
     <div className={styles.detail}>
-      {data.map(work => <WorkDetail key={work.company} {...work}/>)}
+      {data.length > 0 ?
+        <WorkDetail key={data[0].company} {...data[0]}/> :
+        ''
+      }
     </div>
   </section>
 );

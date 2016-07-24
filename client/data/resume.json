@@ -6,7 +6,7 @@
     "email": "jessy1092@gmail.com",
     "phone": "",
     "website": "",
-    "summary": "",
+    "summary": "從高中起接觸程式，大學程式相關課程都名列前茅，目前在儲存設備廠商擔任軟韌體工程師，幫忙維護既有產品外，也參與新產品開發，負責初期規劃軟體架構，並導入自動測試流程，幫助團隊協同開發。下班後，也常在 g0v 零時政府 協助社群基礎建設，並在此累積前端經驗，主要使用 React、ES6 。目前專注於前端開發。",
     "location": {
       "address": "",
       "postalCode": "",
@@ -158,7 +158,7 @@
       "endDate": "now",
       "website": "https://github.com/EasyIME/NIME",
       "summary": "使用 nodejs 開發 windows 輸入法",
-      "highlights": "藉由 PCMan 開發的 PIME ，發展 nodejs 的輸入法平台，使用 node-ffi 與 debug"
+      "highlights": "藉由 PCMan 開發的 PIME ，發展 nodejs 的輸入法平台，使用 node-ffi"
     }
   ],
   "skills": [

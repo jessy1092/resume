@@ -4,20 +4,25 @@ import React from 'react';
 import styles from './index.css';
 
 const socialIcon = {
-  github: 'fa fa-github fa-2x',
-  linkedin: 'fa fa-linkedin fa-2x',
-  twitter: 'fa fa-twitter fa-2x'
+  github: 'fa fa-github',
+  linkedin: 'fa fa-linkedin',
+  twitter: 'fa fa-twitter'
 };
 
 const ProfileSection = ({profiles = []}) => (
   <div className={styles.profileSection}>
     {profiles.map(profile => (
-      <div>
+      <div key={profile.network}>
         <a href={profile.url} target="_blank">
           {profile.username}
         </a> @ <i className={socialIcon[profile.network]}/>
       </div>
     ))}
+    <div>
+      <a href="mailto:jessy1092@gmail.com">
+        jessy1092
+      </a> @ gmail.com
+    </div>
   </div>
 );
 
@@ -25,7 +30,7 @@ const About = ({data}) => (
   <div className={styles.section}>
     <div className={styles.name}>關於</div>
     <div>
-      <div>關於</div>
+      <div className={styles.summary}>{data.summary}</div>
       <ProfileSection {...data}/>
     </div>
   </div>

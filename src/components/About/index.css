@@ -16,8 +16,14 @@
   text-align: right;
 }
 
+.summary {
+  font-size: 16px;
+  line-height: normal;
+}
+
 .profileSection {
   lost-utility: clearfix;
+  margin: 5px 0px;
 }
 
 .profileSection > div {
@@ -27,7 +33,6 @@
 
 .profileSection a {
   text-decoration: none;
-  font-weight: bold;
   color: #72857D;
 }
 
