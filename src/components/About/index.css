@@ -4,11 +4,11 @@
 }
 
 .section > div {
-  lost-column: 1/4 0;
+  lost-column: 1/5 0;
 }
 
 .section > div:nth-child(2) {
-  lost-column: 3/4 0;
+  lost-column: 4/5 0;
 }
 
 .name {
