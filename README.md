@@ -1,6 +1,6 @@
 Resume
 =============
-[![Travis branch][travis-ci-img]][travis-ci-url] [![Coveralls][coveralls-img]][coveralls-url] [![Dependency Status][david-dm-image]][david-dm-url]
+[![Travis branch][travis-ci-img]][travis-ci-url] [![Dependency Status][david-dm-image]][david-dm-url]
 
 ## Structure
 
@@ -70,13 +70,10 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[travis-ci-img]: https://img.shields.io/travis/jessy1092/resume/develop.svg?style=flat-square
+[travis-ci-img]: https://img.shields.io/travis/jessy1092/resume/master.svg?style=flat-square
 [travis-ci-url]: https://travis-ci.org/jessy1092/resume
 
 [david-dm-image]: https://img.shields.io/david/jessy1092/resume.svg?style=flat-square
 [david-dm-url]: https://david-dm.org/jessy1092/resume
 [david-dm-dev-image]: https://img.shields.io/david/dev/jessy1092/resume.svg?style=flat-square
 [david-dm-dev-url]: https://david-dm.org/jessy1092/resume#info=devDependencies
-
-[coveralls-img]: https://img.shields.io/coveralls/jessy1092/resume.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/github/jessy1092/resume
