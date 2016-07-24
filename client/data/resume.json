@@ -70,10 +70,10 @@
       "endDate": "Now",
       "summary": "g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。",
       "highlights": [
-        "hackfoldr 2.0 維護者之一",
+        "hackfoldr-2.0 維護者之一",
         "g0v summit 2014 與 2016 的票務組組長",
-        "參與 g0v 基礎建設 專案",
-        "參與 救救食蛇龜 專案"
+        "參與 g0v 基礎建設（One Button、公報） 專案",
+        "參與 救救食蛇龜（cuora） 專案"
       ]
     }
   ],
@@ -128,7 +128,7 @@
       "endDate": "now",
       "website": "https://wowafrica.tw/",
       "summary": "wowAfrica 阿非卡為台灣最完整的非洲資訊平台，我們的願景是搭起台灣與非洲的橋樑，藉由資訊、新聞、整合各方資源及實體活動等推廣方式，豐富我們對於非洲的認識及想像，達成進一步的交流與發展。",
-      "highlights": "制定整個網站基礎架構，還有架設測試和發佈的流程，使用 react, webpack, gulp, css-module, flux 開發"
+      "highlights": "制定整個網站基礎架構，還有架設測試和發佈的流程，使用 react、webpack、gulp、css-module、flux 開發"
     },
     {
       "name": "Openstack Cinder Driver",
@@ -168,7 +168,8 @@
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript",
+        "JavaScript",
+        "ES6",
         "React",
         "Webpack",
         "Gulp"
@@ -178,6 +179,8 @@
       "name": "軟韌體開發",
       "level": "Senior",
       "keywords": [
+        "C",
+        "python",
         "iSCSI",
         "SNMP",
         "OpenStack Cinder Driver"
