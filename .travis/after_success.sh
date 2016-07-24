@@ -21,11 +21,12 @@ echo "Start decrypt"
 ## add .travis/deploy-key.pub as your github project's deploy key
 ## make sure you git add only .travis/deploy-key.enc
 # password=`cat /dev/urandom | head -c 10000 | openssl sha1`
-# openssl aes-256-cbc -k "$password" -in .travis/deploy-key -a -out .travis/deploy-key.enc
+# openssl aes-256-cbc -k "$password" -in .travis/deploy-key -out .travis/deploy-key.enc
 # travis encrypt -r OWNER/REPONAME secret=$password --add
 ## add the result line to .travis.yml
 ## see also http://about.travis-ci.org/docs/user/encryption-keys/ or
 ## http://docs.travis-ci.com/user/encrypting-files/
+## or Add super_secret_password=$password in your travis environment setting
 openssl aes-256-cbc -k "$super_secret_password" -in .travis/deploy-key.enc -d -out ~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa # this key should have push access
 echo -e ">>> Current Repo:$REPO --- Travis Branch:$TRAVIS_BRANCH"
