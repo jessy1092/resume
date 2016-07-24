@@ -14,6 +14,8 @@ CheckHostIP            no
 BatchMode              yes
 EOF
 
+echo "Start decrypt"
+
 ## to create a deploy key and encrypt it for travis:
 # ssh-keygen -f .travis/deploy-key
 ## add .travis/deploy-key.pub as your github project's deploy key
