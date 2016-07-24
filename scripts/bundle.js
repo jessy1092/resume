@@ -18,7 +18,7 @@ webpackJsonp([1],{
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"section":"index__section___3VLPh","name":"index__name____F16-","summary":"index__summary___3_Mkc","profileSection":"index__profileSection___he29n"};
+	module.exports = {"section":"index__section___13K1V","name":"index__name___3xAuI","summary":"index__summary___4U2hs","profileSection":"index__profileSection___20vUX"};
 
 /***/ },
 
@@ -26,7 +26,7 @@ webpackJsonp([1],{
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"section":"index__section___3hQqv"};
+	module.exports = {"section":"index__section___wj9Sk"};
 
 /***/ },
 
@@ -34,7 +34,7 @@ webpackJsonp([1],{
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"section":"index__section___3Lx9n","name":"index__name___pSXQ0","detailSection":"index__detailSection___j7mFV","studyType":"index__studyType___2IXEH","institution":"index__institution___BPB_3"};
+	module.exports = {"section":"index__section___3QuKh","name":"index__name___3uVM_","detailSection":"index__detailSection___2AHCk","studyType":"index__studyType___2mgJg","institution":"index__institution___eczwN"};
 
 /***/ },
 
@@ -42,7 +42,7 @@ webpackJsonp([1],{
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"section":"index__section___lu554"};
+	module.exports = {"section":"index__section___3Ox7S"};
 
 /***/ },
 
@@ -50,7 +50,7 @@ webpackJsonp([1],{
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"section":"index__section___3Z-5I","name":"index__name___1OstN","detailSection":"index__detailSection___1SpNW","projectName":"index__projectName___7GFhJ","category":"index__category___1uNO2"};
+	module.exports = {"section":"index__section___2jECM","name":"index__name___2m9v4","detailSection":"index__detailSection___2Q0sm","projectName":"index__projectName___36167","category":"index__category___3IIBe"};
 
 /***/ },
 
@@ -58,7 +58,7 @@ webpackJsonp([1],{
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"section":"index__section___2_OF3","name":"index__name___3qGAn","detailSection":"index__detailSection___3yDW1","skillName":"index__skillName___kTqsL","keyword":"index__keyword___3RAGv"};
+	module.exports = {"section":"index__section___2qJnI","name":"index__name___1Kmyz","detailSection":"index__detailSection___TdYIU","skillName":"index__skillName___1uqY4","keyword":"index__keyword___1yUAI"};
 
 /***/ },
 
@@ -66,7 +66,7 @@ webpackJsonp([1],{
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"section":"index__section___1ZZmf","name":"index__name___2Xqrk","detailSection":"index__detailSection___2LHQx","position":"index__position___3RNBP","organization":"index__organization___dcc4g"};
+	module.exports = {"section":"index__section___2YKFP","name":"index__name___2WSJ6","detailSection":"index__detailSection___3uz4u","position":"index__position___2D1W_","organization":"index__organization___1yV4b"};
 
 /***/ },
 
@@ -74,7 +74,7 @@ webpackJsonp([1],{
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"section":"index__section___1xoA_","name":"index__name___25Dh8","detailSection":"index__detailSection___2ea7z","position":"index__position___3B3zb","company":"index__company___28XsD"};
+	module.exports = {"section":"index__section___3vmnZ","name":"index__name___2wKQq","detailSection":"index__detailSection___1x3H-","position":"index__position___1oIwh","company":"index__company___1QOhb"};
 
 /***/ },
 
@@ -89,7 +89,7 @@ webpackJsonp([1],{
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"section":"index__section___2HMiL"};
+	module.exports = {"section":"index__section___2h2Ze"};
 
 /***/ },
 
