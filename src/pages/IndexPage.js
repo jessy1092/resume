@@ -4,6 +4,7 @@ import {fetchResume}    from '../actions';
 import WorkSection      from '../components/WorkSection';
 import ProjectSection   from '../components/ProjectSection';
 import VolunteerSection from '../components/VolunteerSection';
+import EducationSection from '../components/EducationSection';
 import Header           from '../components/Header';
 import Divider          from '../components/Divider';
 import About            from '../components/About';
@@ -31,6 +32,7 @@ class IndexPage extends React.Component {
       work = [],
       projects = [],
       volunteer = [],
+      education = [],
       basics = {}
     } = store.getState().resume;
 
@@ -45,6 +47,8 @@ class IndexPage extends React.Component {
         <ProjectSection data={projects}/>
         <Divider/>
         <VolunteerSection data={volunteer}/>
+        <Divider/>
+        <EducationSection data={education}/>
       </section>
     );
   }
