@@ -1,0 +1,31 @@
+language: node_js
+
+node_js:
+- '6'
+
+sudo: false
+
+cache:
+  directories:
+  - node_modules
+
+git:
+  depth: 1
+
+before_script:
+- chmod +x .travis/after_success.sh
+- chmod +x ./deploy
+
+script:
+- npm test
+
+branches:
+  except:
+  - gh-pages
+
+env:
+  global:
+  - REPO="git@github.com:jessy1092/resume"
+  - secure: Yln5OL5fT4E0kLbkA2kLi2gzf27SLm65VDMn3kWfieZ+/cxXiVxBwGzL/WMV3lVGnUi1/3xKuxzpiat+DLzAp//tNrJfQVvWI2QTt8ZLq+CqtGjlIYryZZQFgpHf9Okq+otHpASGqLwnieJs9oNcX0J3/uWTQJWcFGJCD0E4LrYjQqM1gDLNiP7wQLw91mr6KEqYvH1G+k469Xj6ElGw1hpdhXwhQsYmMFcRtIXMsqUH3l/2zoCDOTYiqOdlLAD+06qzZ1CsRILCKUiGny2MGj5G24DA1YyKCTgt7Ht0zmUDDbdcSpVtYgTEUMfQw6RDNveziUJfUxNG78BytcyZgAiQgHxz6wxHG/HLlYpv6goLhggYU0It3Ye5k9NzgKm/lr76x5EfEKoGhGGCYpj3zLrfRLPxpUw3atWtMsM9Y8snAM6F2ji3HJtHVaOEZkikU1+RQ/iJmDdvLLb+Wnt2taTu/JZUt7zG8msg9/grYgv4v4EOMQvCga8NbFxI0YuKdIxjgkSl1huWb+fh2aqs+HOMjxJDj+hJqFvONe7oaUoo9cCemGoNgR6/MyM+gSMAaFy9psiApj/8sRyczF2nXzd62u+Yf4gVs0tFRz6dzDzcUyji35wXLLheW4ukSUzPulWQd5vOvMA+HFHYKPeh13MlyN5Bm6cpNWDt5wyKDZY=
+
+after_success: .travis/after_success.sh
