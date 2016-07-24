@@ -20,7 +20,7 @@ EOF
 ## make sure you git add only .travis/deploy-key.enc
 # password=`cat /dev/urandom | head -c 10000 | openssl sha1`
 # openssl aes-256-cbc -k "$password" -in .travis/deploy-key -a -out .travis/deploy-key.enc
-# travis encrypt -r OWNER/REPONAME secret=$password
+# travis encrypt -r OWNER/REPONAME secret=$password --add
 ## add the result line to .travis.yml
 ## see also http://about.travis-ci.org/docs/user/encryption-keys/ or
 ## http://docs.travis-ci.com/user/encrypting-files/
