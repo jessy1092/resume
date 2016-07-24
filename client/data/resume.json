@@ -42,7 +42,7 @@
       "summary": "",
       "highlights": [
         "開發 OpenStack Cinder Driver ，使 Infortrend 儲存設備可以透過 iSCSI 或 FC 支援 OpenStack ",
-        "架設 GitLab ，協助導入 CI、git 版本控制，增進團隊開發流程",
+        "架設 GitLab ，協助導入 CI、Git 版本控制，增進團隊開發流程",
         "制定新產品的 Command line tool 架構，加強彈性方便擴展指令，並讓團隊更好協同開發",
         "維護 iSCSI module，幫客人處理 iSCSI protocol 上的問題，須幫忙分析效能瓶頸、定位問題、改善漏洞等等",
         "維護 SNMP module，依客戶需求增加資訊，以便能更好的管理機器，協助支援 SNMPv3",
@@ -72,7 +72,7 @@
       "highlights": [
         "hackfoldr-2.0 維護者之一",
         "g0v summit 2014 與 2016 的票務組組長",
-        "參與 g0v 基礎建設（One Button、公報） 專案",
+        "參與 g0v 基礎建設（OneButton、公報 等） 專案",
         "參與 救救食蛇龜（cuora） 專案"
       ]
     }
@@ -117,8 +117,8 @@
       "startDate": "2014-12",
       "endDate": "now",
       "website": "http://jessy1092.github.io/react-semantify/",
-      "summary": "整合 react 和 semantic-ui，把 semantic-ui 元件包裝成 react component",
-      "highlights": "使用 higher-order component 制定各個 properties，更彈性的處理 semantic-ui class name"
+      "summary": "整合 React 和 Semantic UI，把 Semantic UI 元件包裝成 React component",
+      "highlights": "使用 Higher-order Component 制定各個 properties，更彈性的處理 Semantic UI class name"
     },
     {
       "name": "wowafrica",
@@ -128,7 +128,7 @@
       "endDate": "now",
       "website": "https://wowafrica.tw/",
       "summary": "wowAfrica 阿非卡為台灣最完整的非洲資訊平台，我們的願景是搭起台灣與非洲的橋樑，藉由資訊、新聞、整合各方資源及實體活動等推廣方式，豐富我們對於非洲的認識及想像，達成進一步的交流與發展。",
-      "highlights": "制定整個網站基礎架構，還有架設測試和發佈的流程，使用 react、webpack、gulp、css-module、flux 開發"
+      "highlights": "制定整個網站基礎架構，還有架設測試和發佈的流程，使用 React、Webpack、Gulp、CSS Modules、Flux 開發"
     },
     {
       "name": "Openstack Cinder Driver",
@@ -138,7 +138,7 @@
       "endDate": "2015-08",
       "website": "https://review.openstack.org/#/c/177113/",
       "summary": "Infortrend OpenStack Cinder Driver ，支援透過 iSCSI 或 FC 連結 Infortrend 儲存設備。",
-      "highlights": "使用 python 撰寫，獲得 openstack cinder 審核通過成為官方認證的 driver 之一"
+      "highlights": "使用 Python 撰寫，獲得 Openstack Cinder 審核通過成為官方認證的 driver 之一"
     },
     {
       "name": "hackforldr-2.0",
@@ -148,7 +148,7 @@
       "endDate": "now",
       "website": "http://beta.hackfoldr.org/",
       "summary": "Hackfoldr 是你的黑客公事包，用一個網址就可以和夥伴們分享所有的專案文件！",
-      "highlights": "維護者之一，幫忙打造開發和發佈的環境，使用 gulp 與 travis-ci"
+      "highlights": "維護者之一，幫忙打造開發和發佈的環境，使用 Gulp 與 Travis-ci"
     },
     {
       "name": "NIME",
@@ -158,7 +158,7 @@
       "endDate": "now",
       "website": "https://github.com/EasyIME/NIME",
       "summary": "使用 nodejs 開發 windows 輸入法",
-      "highlights": "藉由 PCMan 開發的 PIME ，發展 nodejs 的輸入法平台，使用 node-ffi"
+      "highlights": "藉由 PCMan 開發的 PIME ，發展 Node.js 的輸入法平台，使用 node-ffi"
     }
   ],
   "skills": [
@@ -180,7 +180,7 @@
       "level": "Senior",
       "keywords": [
         "C",
-        "python",
+        "Python",
         "iSCSI",
         "SNMP",
         "OpenStack Cinder Driver"
