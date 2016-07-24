@@ -48,7 +48,7 @@ function htmlGenerator(callback) {
   ).then(
     json => {
       store.dispatch(resiveResume(json));
-      return serverRender(store)
+      return serverRender(store);
     }
   );
 }

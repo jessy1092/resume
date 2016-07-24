@@ -33,6 +33,11 @@ gulp.task('data', () => {
     .pipe(gulp.dest(`${BUILD_PATH}/data/`));
 });
 
+gulp.task('CNAME', () => {
+  return gulp.src('./CNAME')
+    .pipe(gulp.dest(BUILD_PATH));
+});
+
 gulp.task('webpack', (cb) => {
 
   let webpackConfig = production ? webpackProdConfig: webpackDevConfig;
@@ -95,7 +100,7 @@ gulp.task('clean-all', ['clean-build'], () => {
   ]);
 });
 
-gulp.task('build:static', ['data', 'static-generator']);
+gulp.task('build:static', ['data', 'CNAME', 'static-generator']);
 gulp.task('build', ['build:static', 'webpack']);
 gulp.task('dev', ['build:static', 'webpack:watch-server']);
 gulp.task('default', ['build']);
