@@ -1,12 +1,12 @@
 import React from 'react';
 
-import {fetchResume}  from '../actions';
-import WorkSection    from '../components/WorkSection';
-import ProjectSection from '../components/ProjectSection';
-import Header         from '../components/Header';
-import Divider        from '../components/Divider';
-import About          from '../components/About';
-
+import {fetchResume}    from '../actions';
+import WorkSection      from '../components/WorkSection';
+import ProjectSection   from '../components/ProjectSection';
+import VolunteerSection from '../components/VolunteerSection';
+import Header           from '../components/Header';
+import Divider          from '../components/Divider';
+import About            from '../components/About';
 
 import styles from './index.css';
 
@@ -30,6 +30,7 @@ class IndexPage extends React.Component {
     let {
       work = [],
       projects = [],
+      volunteer = [],
       basics = {}
     } = store.getState().resume;
 
@@ -42,6 +43,8 @@ class IndexPage extends React.Component {
         <WorkSection data={work}/>
         <Divider/>
         <ProjectSection data={projects}/>
+        <Divider/>
+        <VolunteerSection data={volunteer}/>
       </section>
     );
   }

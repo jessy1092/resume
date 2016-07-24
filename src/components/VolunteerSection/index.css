@@ -1,0 +1,40 @@
+
+.section {
+  lost-utility: clearfix;
+}
+
+.section > div {
+  lost-column: 1/4 0;
+}
+
+.section > div:nth-child(2) {
+  lost-column: 3/4 0;
+}
+
+.name {
+  font-size: 24px;
+  text-align: right;
+}
+
+.detailSection {
+  lost-utility: clearfix;
+  font-size: 16px;
+}
+
+.detailSection > div {
+  lost-column: 1/2;
+}
+
+.detailSection li {
+  line-height: normal;
+}
+
+.position {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.organization {
+  font-size: 20px;
+  text-align: right;
+}
