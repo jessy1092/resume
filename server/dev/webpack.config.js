@@ -1,8 +1,9 @@
-import path         from 'path';
-import webpack      from 'webpack';
-import babelConfig  from './babel.config.client';
-import autoprefixer from 'autoprefixer';
-import lost         from 'lost';
+import path          from 'path';
+import webpack       from 'webpack';
+import babelConfig   from './babel.config.client';
+import autoprefixer  from 'autoprefixer';
+import lost          from 'lost';
+import postcssImport from 'postcss-import';
 
 export default {
   devtool: 'cheap-module-eval-source-map',
@@ -64,10 +65,13 @@ export default {
       loader: 'url-loader?limit=1000&name=./styles/[name]-[hash].[ext]'
     }]
   },
-  postcss: function() {
+  postcss: function(webpack) {
     return [
       lost,
-      autoprefixer()
+      autoprefixer(),
+      postcssImport({
+        addDependency: webpack
+      })
     ];
   },
   node: {
