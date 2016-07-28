@@ -30,7 +30,6 @@
     "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
     "babel-cli": "^6.9.0",
     "babel-core": "^6.9.1",
     "babel-eslint": "^6.0.4",
@@ -64,6 +63,7 @@
     "lost": "^7.0.3",
     "nodemon": "^1.8.1",
     "phantomjs-prebuilt": "^2.1.5",
+    "postcss-cssnext": "^2.7.0",
     "postcss-import": "^8.1.2",
     "postcss-loader": "^0.9.1",
     "react-proxy": "^1.1.8",

@@ -1,7 +1,7 @@
 import path          from 'path';
 import webpack       from 'webpack';
 import babelConfig   from './babel.config.client';
-import autoprefixer  from 'autoprefixer';
+import cssnext       from 'postcss-cssnext';
 import lost          from 'lost';
 import postcssImport from 'postcss-import';
 
@@ -67,11 +67,11 @@ export default {
   },
   postcss: function(webpack) {
     return [
-      lost,
-      autoprefixer(),
       postcssImport({
-        addDependency: webpack
-      })
+        addDependencyTo: webpack
+      }),
+      cssnext,
+      lost
     ];
   },
   node: {

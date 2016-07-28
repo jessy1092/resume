@@ -1,7 +1,7 @@
 import path              from 'path';
 import webpack           from 'webpack';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
-import autoprefixer      from 'autoprefixer';
+import cssnext           from 'postcss-cssnext';
 import lost              from 'lost';
 import postcssImport     from 'postcss-import';
 
@@ -76,11 +76,11 @@ export default {
   },
   postcss: function() {
     return [
-      lost,
-      autoprefixer(),
       postcssImport({
-        addDependency: webpack
-      })
+        addDependencyTo: webpack
+      }),
+      cssnext,
+      lost
     ];
   },
   node: {
