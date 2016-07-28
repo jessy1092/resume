@@ -1,0 +1,10 @@
+
+:root {
+  --large-section-left: {
+    lost-column: 1/5 0;
+  };
+
+  --large-section-right: {
+    lost-column: 4/5 0;
+  };
+}
