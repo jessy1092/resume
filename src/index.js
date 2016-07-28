@@ -1,8 +1,8 @@
 
-import React         from 'react';
+import React from 'react';
 
-import IndexPage      from './pages/IndexPage';
-import Provider       from './utility/Provider';
+import IndexPage from './pages/IndexPage';
+import Provider  from './utility/Provider';
 
 import styles from './index.css';
 
