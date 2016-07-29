@@ -1,4 +1,6 @@
-export default ({title, ogTitle, description, image, url, keywords, html}) => (
+export default ({
+  title, ogTitle, description, image, url, keywords, html, state
+}) => (
 `
 <!DOCTYPE html>
 <html>
@@ -18,6 +20,7 @@ export default ({title, ogTitle, description, image, url, keywords, html}) => (
 </head>
 <body>
   <div id="content">${html}</div>
+  <script>window.__state__ = ${state};</script>
   <script type="text/javascript" src="/scripts/vendor.bundle.js"></script>
   <script type="text/javascript" src="/scripts/bundle.js"></script>
 </body>

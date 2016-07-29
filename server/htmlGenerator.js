@@ -25,7 +25,8 @@ function serverRender(store) {
     image: '',
     url: '',
     keywords: '台灣',
-    html: html
+    html: html,
+    state: JSON.stringify(store.getState())
   });
 
   return template;

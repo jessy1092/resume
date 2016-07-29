@@ -5,6 +5,6 @@ import configureStore from '../../src/store';
 
 
 ReactDOM.render(
-  <App store={configureStore()}/>,
+  <App store={configureStore(window.__state__)}/>,
   document.getElementById('content')
 );
