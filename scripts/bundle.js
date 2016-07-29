@@ -3,7 +3,7 @@ webpackJsonp([1],{
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var _react=__webpack_require__(24),_react2=_interopRequireDefault(_react),_reactDom=__webpack_require__(171),_reactDom2=_interopRequireDefault(_reactDom),_src=__webpack_require__(494),_src2=_interopRequireDefault(_src),_store=__webpack_require__(498),_store2=_interopRequireDefault(_store);_reactDom2.default.render(_react2.default.createElement(_src2.default,{store:(0,_store2.default)()}),document.getElementById("content"));
+	"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var _react=__webpack_require__(24),_react2=_interopRequireDefault(_react),_reactDom=__webpack_require__(171),_reactDom2=_interopRequireDefault(_reactDom),_src=__webpack_require__(494),_src2=_interopRequireDefault(_src),_store=__webpack_require__(498),_store2=_interopRequireDefault(_store);_reactDom2.default.render(_react2.default.createElement(_src2.default,{store:(0,_store2.default)(window.__state__)}),document.getElementById("content"));
 
 /***/ },
 
@@ -180,7 +180,7 @@ webpackJsonp([1],{
 /***/ 498:
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function configureStore(){return(0,_redux.createStore)(_reducers2.default,(0,_redux.applyMiddleware)(_reduxThunk2.default))}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=configureStore;var _redux=__webpack_require__(136),_reduxThunk=__webpack_require__(201),_reduxThunk2=_interopRequireDefault(_reduxThunk),_reducers=__webpack_require__(496),_reducers2=_interopRequireDefault(_reducers);
+	"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function configureStore(e){return(0,_redux.createStore)(_reducers2.default,e,(0,_redux.applyMiddleware)(_reduxThunk2.default))}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=configureStore;var _redux=__webpack_require__(136),_reduxThunk=__webpack_require__(201),_reduxThunk2=_interopRequireDefault(_reduxThunk),_reducers=__webpack_require__(496),_reducers2=_interopRequireDefault(_reducers);
 
 /***/ },
 
