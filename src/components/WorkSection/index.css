@@ -15,6 +15,7 @@
 
 .name {
   font-size: 24px;
+  line-height: normal;
   text-align: right;
 }
 
@@ -39,4 +40,28 @@
 .company {
   font-size: 20px;
   text-align: right;
+}
+
+@media (width <= 650px) {
+  .section > div {
+    lost-column: 1/1 0;
+  }
+
+  .section > div:nth-child(2) {
+    lost-column: 1/1 0;
+  }
+
+  .name {
+    text-align: center;
+  }
+}
+
+@media (width <= 550px) {
+  .detailSection > div {
+    lost-column: 1/1 0;
+  }
+
+  .company {
+    text-align: left;
+  }
 }

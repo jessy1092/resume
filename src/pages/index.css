@@ -2,5 +2,6 @@
 .section {
   margin-top: 15px;
   margin-bottom: 15px;
+  padding: 0px 40px;
   lost-center: 980px;
 }

@@ -8,7 +8,7 @@ const ProjectDetail = ({
 }) => (
   <div>
     <section className={styles.detailSection}>
-      <a className={styles.projectName} href={website}>{name}</a>
+      <div><a className={styles.projectName} href={website}>{name}</a></div>
       <div className={styles.category}>{category}</div>
     </section>
     <div>{`${startDate} ~ ${endDate}`}</div>
