@@ -27,13 +27,15 @@ const ProfileSection = ({profiles = []}) => (
 );
 
 const About = ({data}) => (
-  <div className={styles.section}>
-    <div className={styles.name}>關於</div>
+  <section className={styles.section}>
+    <div>
+      <h2 className={styles.name}>關於</h2>
+    </div>
     <div>
       <div className={styles.summary}>{data.summary}</div>
       <ProfileSection {...data}/>
     </div>
-  </div>
+  </section>
 );
 
 export default About;

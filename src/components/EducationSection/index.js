@@ -18,7 +18,9 @@ const EducationDetail = ({
 
 const EducationSection = ({data}) => (
   <section className={styles.section}>
-    <div className={styles.name}>學歷</div>
+    <div>
+      <h2 className={styles.name}>學歷</h2>
+    </div>
     <div>
       {data.length > 0 ?
         <EducationDetail {...data[1]}/> :

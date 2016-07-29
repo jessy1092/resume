@@ -20,7 +20,9 @@ const WorkDetail = ({
 
 const WorkSection = ({data}) => (
   <section className={styles.section}>
-    <div className={styles.name}>經歷</div>
+    <div>
+      <h2 className={styles.name}>經歷</h2>
+    </div>
     <div>
       {data.length > 0 ?
         <WorkDetail key={data[0].company} {...data[0]}/> :

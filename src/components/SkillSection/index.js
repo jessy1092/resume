@@ -21,7 +21,9 @@ const SkillDetail = ({data}) => (
 
 const SkillSection = ({data}) => (
   <section className={styles.section}>
-    <div className={styles.name}>技能</div>
+    <div>
+      <h2 className={styles.name}>技能</h2>
+    </div>
     <div>
       <SkillDetail data={data}/>
     </div>

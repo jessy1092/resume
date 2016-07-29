@@ -18,7 +18,9 @@ const ProjectDetail = ({
 
 const ProjectSection = ({data}) => (
   <section className={styles.section}>
-    <div className={styles.name}>專案</div>
+    <div>
+      <h2 className={styles.name}>專案</h2>
+    </div>
     <div>
       {data.map(project => <ProjectDetail key={project.name} {...project}/>)}
     </div>

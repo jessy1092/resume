@@ -20,7 +20,9 @@ const VolunteerDetail = ({
 
 const VolunteerSection = ({data}) => (
   <section className={styles.section}>
-    <div className={styles.name}>社群</div>
+    <div>
+      <h2 className={styles.name}>社群</h2>
+    </div>
     <div>
       {data.map(volunteer => (
         <VolunteerDetail key={volunteer.organization} {...volunteer}/>
