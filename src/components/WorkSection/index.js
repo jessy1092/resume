@@ -13,7 +13,7 @@ const WorkDetail = ({
     </section>
     <div>{`${startDate} ~ ${endDate}`}</div>
     <ul>
-      {highlights.map((highlight, i) => <li key={i}>{highlight}</li>)}
+      {highlights.map((highlight, i) => <li key={i}>{highlight.content}</li>)}
     </ul>
   </div>
 );
