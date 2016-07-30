@@ -4,16 +4,22 @@ import React from 'react';
 import styles from './index.css';
 
 const VolunteerDetail = ({
-  organization, position, startDate, endDate, highlights
+  organization, position, startDate, endDate, highlights, website
 }) => (
   <div>
     <section className={styles.detailSection}>
       <div className={styles.position}>{position}</div>
-      <div className={styles.organization}>{organization}</div>
+      <div className={styles.organization}>
+        <a href={website} target="_blank">{organization}</a>  
+      </div>
     </section>
     <div>{`${startDate} ~ ${endDate}`}</div>
     <ul>
-      {highlights.map((highlight, i) => <li key={i}>{highlight}</li>)}
+      {highlights.map((highlight, i) => {
+        if (i < 3) {
+          return (<li key={i}>{highlight}</li>);
+        }
+      })}
     </ul>
   </div>
 );

@@ -74,17 +74,17 @@
   ],
   "volunteer": [
     {
-      "organization": "g0v",
+      "organization": "g0v 零時政府",
       "position": "Contributor",
       "website": "https://g0v.tw/",
       "startDate": "2013-07-01",
       "endDate": "Now",
       "summary": "g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。",
       "highlights": [
-        "hackfoldr-2.0 維護者之一",
-        "g0v summit 2014 與 2016 的票務組組長",
-        "參與 g0v 基礎建設（OneButton、公報 等） 專案",
-        "參與 救救食蛇龜（cuora） 專案"
+        "g0v summit 2014 與 2016 的票務組組長，協助 summit 會眾報名、報到與聯絡等事項",
+        "參與 g0v 基礎建設專案，協助打造一系列幫助社群運作的工具，例如一鍵開大松、g0v 公報等",
+        "參與救救食蛇龜（cuora）專案，協助提案者推廣認識食蛇龜，讓一般大眾更瞭解目前食蛇龜的處境",
+        "hackfoldr-2.0 維護者之一"
       ]
     }
   ],
@@ -101,8 +101,8 @@
       ]
     },
     {
-      "institution": "NCTU",
-      "area": "Electrical, Electronics and Communications Engineering",
+      "institution": "交通大學",
+      "area": "電信工程研究所",
       "studyType": "碩士",
       "startDate": "2011",
       "endDate": "2013",
@@ -110,8 +110,8 @@
       "courses": []
     },
     {
-      "institution": "NCTU",
-      "area": "Electrical, Electronics and Communications Engineering",
+      "institution": "交通大學",
+      "area": "電信工程學系",
       "studyType": "學士",
       "startDate": "2007",
       "endDate": "2011",
@@ -122,14 +122,14 @@
   "awards": [],
   "projects": [
     {
-      "name": "react-semantify",
+      "name": "NIME",
       "creator": "李俊緯",
       "category": "Open Source",
-      "startDate": "2014-12",
+      "startDate": "2016-02",
       "endDate": "now",
-      "website": "http://jessy1092.github.io/react-semantify/",
-      "summary": "整合 React 和 Semantic UI，把 Semantic UI 元件包裝成 React component",
-      "highlights": "使用 Higher-order Component 制定各個 properties，更彈性的處理 Semantic UI class name"
+      "website": "https://github.com/EasyIME/NIME",
+      "summary": "基於 PCMan 於 2015 年發佈的 PIME 輸入法平台，使用 nodejs 開發 windows 輸入法",
+      "highlights": "主要開發者，移植 PIME 到 Node.js 上，讓開發者可以使用 Node.js 開發中文輸入法，使用 node-ffi 作 c binding"
     },
     {
       "name": "wowafrica",
@@ -138,28 +138,28 @@
       "startDate": "2015-05",
       "endDate": "now",
       "website": "https://wowafrica.tw/",
-      "summary": "wowAfrica 阿非卡為台灣最完整的非洲資訊平台，我們的願景是搭起台灣與非洲的橋樑，藉由資訊、新聞、整合各方資源及實體活動等推廣方式，豐富我們對於非洲的認識及想像，達成進一步的交流與發展。",
-      "highlights": "制定整個網站基礎架構，還有架設測試和發佈的流程，使用 React、Webpack、Gulp、CSS Modules、Flux 開發"
+      "summary": "wowAfrica 阿非卡為台灣最完整的非洲資訊平台，藉由資訊、新聞、整合各方資源及實體活動等推廣方式，增加對於非洲的認識及想像，達成進一步的交流與發展。",
+      "highlights": "負責制定整個網站基礎架構、架設測試和發佈流程，使用 React、Webpack、Gulp、CSS Modules、Redux 開發"
+    },
+    {
+      "name": "react-semantify",
+      "creator": "李俊緯",
+      "category": "Open Source",
+      "startDate": "2014-12",
+      "endDate": "now",
+      "website": "http://jessy1092.github.io/react-semantify/",
+      "summary": "整合 React 和 Semantic UI，把 Semantic UI 元件包裝成 React component",
+      "highlights": "主要開發者，使用 Higher-order Component 制定各個 compoent properties，更彈性的處理 Semantic UI class name，後來受邀開發官方 Semantic-UI-React"
     },
     {
       "name": "hackforldr-2.0",
       "creator": "ETBlue",
-      "category": "Open Source",
+      "category": "g0v",
       "startDate": "2014-06",
       "endDate": "now",
       "website": "http://beta.hackfoldr.org/",
       "summary": "Hackfoldr 是你的黑客公事包，用一個網址就可以和夥伴們分享所有的專案文件！",
-      "highlights": "維護者之一，幫忙打造開發和發佈的環境，使用 Gulp 與 Travis-ci"
-    },
-    {
-      "name": "NIME",
-      "creator": "李俊緯",
-      "category": "Open Source",
-      "startDate": "2016-02",
-      "endDate": "now",
-      "website": "https://github.com/EasyIME/NIME",
-      "summary": "使用 nodejs 開發 windows 輸入法",
-      "highlights": "藉由 PCMan 開發的 PIME ，發展 Node.js 的輸入法平台，使用 node-ffi"
+      "highlights": "維護者之一，幫忙打造開發和發佈的環境，使用 Browserify、Gulp 與 Travis-ci"
     },
     {
       "name": "Openstack Cinder Driver",

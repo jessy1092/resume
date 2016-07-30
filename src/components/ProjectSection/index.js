@@ -4,7 +4,7 @@ import React from 'react';
 import styles from './index.css';
 
 const ProjectDetail = ({
-  name, category, website, startDate, endDate, highlights
+  name, category, website, startDate, endDate, highlights, summary
 }) => (
   <div>
     <section className={styles.detailSection}>
@@ -12,7 +12,10 @@ const ProjectDetail = ({
       <div className={styles.category}>{category}</div>
     </section>
     <div>{`${startDate} ~ ${endDate}`}</div>
-    <ul><li>{highlights}</li></ul>
+    <ul>
+      <li>{`簡介： ${summary}`}</li>
+      <li>{`貢獻： ${highlights}`}</li>
+    </ul>
   </div>
 );
 
@@ -22,7 +25,11 @@ const ProjectSection = ({data}) => (
       <h2 className={styles.name}>專案</h2>
     </div>
     <div>
-      {data.map(project => <ProjectDetail key={project.name} {...project}/>)}
+      {data.map((project, i) => {
+        if (i < 4) {
+          return (<ProjectDetail key={project.name} {...project}/>);
+        }
+      })}
     </div>
   </section>
 );
