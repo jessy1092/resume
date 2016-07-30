@@ -26,8 +26,34 @@
   lost-column: 1/2;
 }
 
-.detailSection li {
+.detailContentSection {
+  lost-utility: clearfix;
+}
+
+.detailContentSection > div {
+  lost-column: 5/6 0 5px;
+}
+
+.detailContentSection > div:nth-child(2) {
+  lost-column: 1/6 0 5px;
+}
+
+.detailContentSection ul {
+  margin: 0px;
+}
+
+.detailContentSection li {
   line-height: normal;
+  padding: 5px;
+}
+
+.keyword {
+  margin: 0px 2px;
+  padding: 5px;
+  display: inline-block;
+  background-color: #72857D;
+  border-radius: 5px;
+  color: white;
 }
 
 .position {
@@ -61,5 +87,13 @@
 
   .company {
     text-align: left;
+  }
+
+  .detailContentSection > div {
+    lost-column: 3/4 0 5px;
+  }
+
+  .detailContentSection > div:nth-child(2) {
+    lost-column: 1/4 0 5px;
   }
 }

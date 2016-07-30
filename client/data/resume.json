@@ -41,23 +41,23 @@
       "endDate": "2016-09-23",
       "summary": "",
       "highlights": [{
-        "content": "開發 OpenStack Cinder Driver，使 Infortrend 儲存設備可以透過 iSCSI 或 FC 支援 OpenStack",
-        "label": ["Python", "OpenStack"]
+        "content": "開發 OpenStack Cinder Driver，使 Infortrend 儲存設備可以透過 iSCSI 或 FC 提供 Volume 給 OpenStack 使用",
+        "label": ["Python"]
       }, {
         "content": "架設 GitLab ，協助導入 CI、Git 版本控制，增進團隊開發流程",
         "label": ["Teamwork"]
       }, {
         "content": "參與新產品 Command line tool 的開發，主要制定軟體架構，加強彈性以方便擴展指令，並讓團隊更好協同開發",
-        "label": ["Python", "Architecture"]
+        "label": ["Python"]
       }, {
         "content": "維護 iSCSI module，幫客戶處理 iSCSI protocol 上的問題，須幫忙分析效能瓶頸、定位問題、改善漏洞等等",
-        "label": ["iSCSI", "C"]
+        "label": ["C"]
       }, {
         "content": "維護 SNMP module，依客戶需求增加資訊，以便能更好的管理機器，協助支援 SNMPv3",
-        "label": ["SNMP", "C"]
+        "label": ["C"]
       }, {
         "content": "開發 NVMe driver ，使 Infortrend 儲存設備可以支援新一代 SSD",
-        "label": ["NVMe", "C"]
+        "label": ["C"]
       }]
     },
     {
@@ -142,16 +142,6 @@
       "highlights": "制定整個網站基礎架構，還有架設測試和發佈的流程，使用 React、Webpack、Gulp、CSS Modules、Flux 開發"
     },
     {
-      "name": "Openstack Cinder Driver",
-      "creator": "Infortrend",
-      "category": "Infortrend",
-      "startDate": "2015-04",
-      "endDate": "2015-08",
-      "website": "https://review.openstack.org/#/c/177113/",
-      "summary": "Infortrend OpenStack Cinder Driver ，支援透過 iSCSI 或 FC 連結 Infortrend 儲存設備。",
-      "highlights": "使用 Python 撰寫，獲得 Openstack Cinder 審核通過成為官方認證的 driver 之一"
-    },
-    {
       "name": "hackforldr-2.0",
       "creator": "ETBlue",
       "category": "Open Source",
@@ -170,6 +160,16 @@
       "website": "https://github.com/EasyIME/NIME",
       "summary": "使用 nodejs 開發 windows 輸入法",
       "highlights": "藉由 PCMan 開發的 PIME ，發展 Node.js 的輸入法平台，使用 node-ffi"
+    },
+    {
+      "name": "Openstack Cinder Driver",
+      "creator": "Infortrend",
+      "category": "Infortrend",
+      "startDate": "2015-04",
+      "endDate": "2015-08",
+      "website": "https://review.openstack.org/#/c/177113/",
+      "summary": "Infortrend OpenStack Cinder Driver ，支援透過 iSCSI 或 FC 連結 Infortrend 儲存設備。",
+      "highlights": "使用 Python 撰寫，獲得 Openstack Cinder 審核通過成為官方認證的 driver 之一"
     }
   ],
   "skills": [

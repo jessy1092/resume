@@ -12,9 +12,24 @@ const WorkDetail = ({
       <div className={styles.company}>{company}</div>
     </section>
     <div>{`${startDate} ~ ${endDate}`}</div>
-    <ul>
-      {highlights.map((highlight, i) => <li key={i}>{highlight.content}</li>)}
-    </ul>
+    {highlights.map((highlight, i) => {
+      if (i <= 3) {
+        return (
+          <section className={styles.detailContentSection} key={i}>
+            <div>
+              <ul>
+                <li key={i}>{highlight.content}</li>
+              </ul>
+            </div>
+            <div>
+              {highlight.label.map((label, i) => (
+                <div className={styles.keyword} key={i}>{label}</div>
+              ))}
+            </div>
+          </section>
+        );
+      }
+    })}
   </div>
 );
 
