@@ -90,10 +90,14 @@
   }
 
   .detailContentSection > div {
-    lost-column: 3/4 0 5px;
+    lost-column: 1/1 0;
   }
 
   .detailContentSection > div:nth-child(2) {
-    lost-column: 1/4 0 5px;
+    lost-column: 1/1 0;
+  }
+
+  .keyword {
+    display: none;
   }
 }

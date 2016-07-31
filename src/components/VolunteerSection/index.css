@@ -17,6 +17,10 @@
   line-height: normal;
 }
 
+.section ul {
+  margin: 5px 0px;
+}
+
 .name {
   text-align: right;
 }

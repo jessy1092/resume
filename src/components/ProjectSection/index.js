@@ -25,11 +25,7 @@ const ProjectSection = ({data}) => (
       <h2 className={styles.name}>專案</h2>
     </div>
     <div>
-      {data.map((project, i) => {
-        if (i < 4) {
-          return (<ProjectDetail key={project.name} {...project}/>);
-        }
-      })}
+      {data.map((project, i) => <ProjectDetail key={project.name} {...project}/>)}
     </div>
   </section>
 );

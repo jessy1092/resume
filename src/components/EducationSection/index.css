@@ -13,6 +13,14 @@
   @apply --large-section-right;
 }
 
+.section li {
+  line-height: normal;
+}
+
+.section ul {
+  margin: 5px 0px;
+}
+
 .name {
   text-align: right;
 }
@@ -24,10 +32,6 @@
 
 .detailSection > div {
   lost-column: 1/2;
-}
-
-.detailSection li {
-  line-height: normal;
 }
 
 .studyType {
