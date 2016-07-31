@@ -129,7 +129,7 @@
       "endDate": "now",
       "website": "https://github.com/EasyIME/NIME",
       "summary": "基於 PCMan 於 2015 年發佈的 PIME 輸入法平台，使用 nodejs 開發 windows 輸入法",
-      "highlights": "主要開發者，移植 PIME 到 Node.js 上，讓開發者可以使用 Node.js 開發中文輸入法，使用 node-ffi 作 c binding"
+      "highlights": "主要開發者，移植 PIME 到 Node.js 上，讓開發者可以使用 Node.js 開發中文輸入法，使用 node-ffi 作 c binding。此專案獲選 JSDC 2016 議題之一，將於 10 月 JSDC 擔任講者分享開發經驗"
     },
     {
       "name": "wowafrica",
@@ -140,6 +140,16 @@
       "website": "https://wowafrica.tw/",
       "summary": "wowAfrica 阿非卡為台灣最完整的非洲資訊平台，藉由資訊、新聞、整合各方資源及實體活動等推廣方式，增加對於非洲的認識及想像，達成進一步的交流與發展。",
       "highlights": "負責制定整個網站基礎架構、架設測試和發佈流程，使用 React、Webpack、Gulp、CSS Modules、Redux 開發"
+    },
+    {
+      "name": "Openstack Cinder Driver",
+      "creator": "Infortrend",
+      "category": "Infortrend",
+      "startDate": "2015-04",
+      "endDate": "2015-08",
+      "website": "https://review.openstack.org/#/c/177113/",
+      "summary": "Infortrend OpenStack Cinder Driver ，支援透過 iSCSI 或 FC 連結 Infortrend 儲存設備。",
+      "highlights": "主要開發者，使用 CLI 操作儲存設備，獲得 Openstack Cinder 維護者審核通過，成為官方認證的 driver 之一"
     },
     {
       "name": "react-semantify",
@@ -160,16 +170,6 @@
       "website": "http://beta.hackfoldr.org/",
       "summary": "Hackfoldr 是你的黑客公事包，用一個網址就可以和夥伴們分享所有的專案文件！",
       "highlights": "維護者之一，幫忙打造開發和發佈的環境，使用 Browserify、Gulp 與 Travis-ci"
-    },
-    {
-      "name": "Openstack Cinder Driver",
-      "creator": "Infortrend",
-      "category": "Infortrend",
-      "startDate": "2015-04",
-      "endDate": "2015-08",
-      "website": "https://review.openstack.org/#/c/177113/",
-      "summary": "Infortrend OpenStack Cinder Driver ，支援透過 iSCSI 或 FC 連結 Infortrend 儲存設備。",
-      "highlights": "使用 Python 撰寫，獲得 Openstack Cinder 審核通過成為官方認證的 driver 之一"
     }
   ],
   "skills": [
@@ -193,7 +193,6 @@
         "C",
         "Python",
         "iSCSI",
-        "SNMP",
         "OpenStack Cinder Driver"
       ]
     }
