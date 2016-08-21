@@ -3,14 +3,14 @@
 
 .section {
   lost-utility: clearfix;
-}
 
-.section > div {
-  @apply --large-section-left;
-}
+  & > div {
+    @apply --large-section-left;
+  }
 
-.section > div:nth-child(2) {
-  @apply --large-section-right;
+  & > div:nth-child(2) {
+    @apply --large-section-right;
+  }
 }
 
 .name {
@@ -20,31 +20,31 @@
 .detailSection {
   lost-utility: clearfix;
   font-size: 16px;
-}
 
-.detailSection > div {
-  lost-column: 1/2;
+  & > div {
+    lost-column: 1/2;
+  }
 }
 
 .detailContentSection {
   lost-utility: clearfix;
-}
 
-.detailContentSection > div {
-  lost-column: 5/6 0 5px;
-}
+  & > div {
+    lost-column: 5/6 0 5px;
+  }
 
-.detailContentSection > div:nth-child(2) {
-  lost-column: 1/6 0 5px;
-}
+  & > div:nth-child(2) {
+    lost-column: 1/6 0 5px;
+  }
 
-.detailContentSection ul {
-  margin: 0px;
-}
+  & ul {
+    margin: 0px;
+  }
 
-.detailContentSection li {
-  line-height: normal;
-  padding: 5px;
+  & li {
+    line-height: normal;
+    padding: 5px;
+  }
 }
 
 .keyword {
@@ -69,10 +69,10 @@
 @media (width <= 650px) {
   .section > div {
     lost-column: 1/1 0;
-  }
 
-  .section > div:nth-child(2) {
-    lost-column: 1/1 0;
+    &:nth-child(2) {
+      lost-column: 1/1 0;
+    }
   }
 
   .name {
@@ -91,10 +91,10 @@
 
   .detailContentSection > div {
     lost-column: 1/1 0;
-  }
 
-  .detailContentSection > div:nth-child(2) {
-    lost-column: 1/1 0;
+    &:nth-child(2) {
+      lost-column: 1/1 0;
+    }
   }
 
   .keyword {

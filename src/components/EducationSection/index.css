@@ -3,22 +3,22 @@
 
 .section {
   lost-utility: clearfix;
-}
 
-.section > div {
-  @apply --large-section-left;
-}
+  & > div {
+    @apply --large-section-left;
+  }
 
-.section > div:nth-child(2) {
-  @apply --large-section-right;
-}
+  & > div:nth-child(2) {
+    @apply --large-section-right;
+  }
 
-.section li {
-  line-height: normal;
-}
+  & li {
+    line-height: normal;
+  }
 
-.section ul {
-  margin: 5px 0px;
+  & ul {
+    margin: 5px 0px;
+  }
 }
 
 .name {
@@ -28,10 +28,10 @@
 .detailSection {
   lost-utility: clearfix;
   font-size: 16px;
-}
 
-.detailSection > div {
-  lost-column: 1/2;
+  & > div {
+    lost-column: 1/2;
+  }
 }
 
 .studyType {
@@ -47,10 +47,10 @@
 @media (width <= 650px) {
   .section > div {
     lost-column: 1/1 0;
-  }
 
-  .section > div:nth-child(2) {
-    lost-column: 1/1 0;
+    &:nth-child(2) {
+      lost-column: 1/1 0;
+    }
   }
 
   .name {
