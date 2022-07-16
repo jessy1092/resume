@@ -1,7 +1,4 @@
 # node
 node_modules/
-_public/
+public/
 *.log
-
-# coverage result
-coverage/
