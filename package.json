@@ -19,8 +19,9 @@
   "dependencies": {},
   "devDependencies": {
     "jsonresume-theme-github": "^0.0.5",
+    "prettier": "^2.7.1",
     "resume-cli": "^3.0.7"
   },
-  "repository":"https://github.com/jessy1092/resume",
+  "repository": "https://github.com/jessy1092/resume",
   "license": "MIT"
 }

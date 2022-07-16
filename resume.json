@@ -2,16 +2,16 @@
   "basics": {
     "name": "李俊緯 (Lee)",
     "label": "Programmer",
-    "image": "",
+    "image": "https://avatars.githubusercontent.com/u/4408071?v=4",
     "email": "jessy1092@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "從高中起接觸程式，大學程式相關課程都名列前茅，目前在儲存設備廠商擔任軟韌體工程師，幫忙維護既有產品外，也參與新產品開發，負責初期規劃軟體架構，並導入自動測試流程，幫助團隊協同開發。下班後，也常在 g0v 零時政府 協助社群基礎建設，並在此累積前端經驗，主要使用 React、ES6 。目前專注於前端開發。",
+    "summary": "目前專注於前端開發，主要使用 React。閒暇之餘研究區塊鏈，相信 Web 3.0 的到來。",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "",
-      "countryCode": "",
+      "city": "Taipei",
+      "countryCode": "TW",
       "region": ""
     },
     "profiles": [
@@ -34,9 +34,37 @@
   },
   "work": [
     {
+      "name": "25sprout 新芽網路股份有限公司",
+      "position": "前端經理",
+      "url": "https://www.25sprout.com/",
+      "startDate": "2018",
+      "endDate": "2022",
+      "summary": "帶領前端部門持續打造下一個網路創新產品",
+      "highlights": [
+        "負責前端部門技術演進",
+        "持續打造高效可靠的專案前端團隊",
+        "擔任跨部門溝通協調的角色",
+        "協調與安排前端開發人力資源"
+      ],
+      "pinned": true
+    },
+    {
+      "name": "25sprout 新芽網路股份有限公司",
+      "position": "前端工程師",
+      "url": "https://www.25sprout.com/",
+      "startDate": "2016-10",
+      "endDate": "2018",
+      "summary": "持續打造下一個網路創新產品",
+      "highlights": [
+        "熟悉 html, css, js",
+        "熟悉 react, redux, webpack, typescript"
+      ],
+      "pinned": true
+    },
+    {
       "name": "Infortrend",
       "position": "軟韌體工程師",
-      "website": "http://www.infortrend.com/tw/Home",
+      "url": "http://www.infortrend.com/tw/Home",
       "startDate": "2013-11-15",
       "endDate": "2016-09-23",
       "summary": "",
@@ -52,20 +80,17 @@
     {
       "name": "UMC",
       "position": "Summer Intern",
-      "website": "",
+      "url": "",
       "startDate": "2012-07-01",
       "endDate": "2012-08-31",
-      "summary": "",
-      "highlights": [
-        "Big Data 資料存取之有效解決方案研究計畫，主要在Hadoop平台上處理Big Data，並驗證其可行性。"
-      ]
+      "summary": "Big Data 資料存取之有效解決方案研究計畫，主要在Hadoop平台上處理Big Data，並驗證其可行性。"
     }
   ],
   "volunteer": [
     {
       "organization": "g0v 零時政府",
       "position": "Contributor",
-      "website": "https://g0v.tw/",
+      "url": "https://g0v.tw/",
       "startDate": "2013-07-01",
       "endDate": "2016",
       "summary": "g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。",
@@ -85,9 +110,7 @@
       "startDate": "2016",
       "endDate": "2017",
       "gpa": "",
-      "courses": [
-        "Front End Development Certification"
-      ]
+      "courses": ["Front End Development Certification"]
     },
     {
       "institution": "交通大學",
@@ -108,64 +131,97 @@
       "courses": []
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "Hackathon 3.0｜Solana Asia Series – 30hrs hacker house",
+      "date": "2022-04",
+      "awarder": "ORCA、EPOCHS.STUDIO、恆新資本、Dappio",
+      "summary": "由 EPOCHS.STUDIO 加速器、恆新資本、Dappio 合辦的 hackathon https://hackathon.epochs.studio ，主要參與 30 小時黑克松，組成三人小組分析 ORCA 相關數據，並整合各 dune 圖表，製作出簡單易用的 dashboard",
+      "url": "https://sol-hack.pages.dev/",
+      "highlights": ["主要負責前端開發"],
+      "pinned": true
+    }
+  ],
   "projects": [
     {
+      "name": "BBGO",
+      "type": "bot",
+      "entity": "Open Source",
+      "startDate": "2021",
+      "endDate": "2022",
+      "url": "https://github.com/EasyIME/NIME",
+      "description": "The modern cryptocurrency trading bot framework written in Go.",
+      "highlights": [],
+      "roles": ["Contributor"]
+    },
+    {
+      "name": "react-github-fork-ribbon",
+      "type": "React Library",
+      "entity": "Open Source",
+      "startDate": "2015-01",
+      "endDate": "2022",
+      "url": "http://jessy1092.github.io/react-github-fork-ribbon/",
+      "description": "Pure inline style github fork ribbon on React component. ",
+      "highlights": [
+        "主要開發者，使用 inline style 製作 github fork ribbon component"
+      ],
+      "pinned": true
+    },
+    {
       "name": "NIME",
-      "creator": "李俊緯",
-      "category": "Open Source",
+      "type": "IME",
+      "entity": "Open Source",
       "startDate": "2016-02",
       "endDate": "2016-10",
-      "website": "https://github.com/EasyIME/NIME",
-      "summary": "基於 PCMan 於 2015 年發佈的 PIME 輸入法平台，使用 nodejs 開發 windows 輸入法",
+      "url": "https://github.com/EasyIME/NIME",
+      "description": "基於 PCMan 於 2015 年發佈的 PIME 輸入法平台，使用 nodejs 開發 windows 輸入法",
       "highlights": [
         "主要開發者，移植 PIME 到 Node.js 上，讓開發者可以使用 Node.js 開發中文輸入法，使用 node-ffi 作 c binding。此專案獲選 JSDC 2016 議題之一，將於 10 月 JSDC 擔任講者分享開發經驗"
       ]
     },
     {
       "name": "wowafrica",
-      "creator": "wowafrica",
+      "type": "application",
       "category": "wowafrica",
       "startDate": "2015-05",
       "endDate": "2020-05",
-      "website": "https://wowafrica.tw/",
-      "summary": "wowAfrica 阿非卡為台灣最完整的非洲資訊平台，藉由資訊、新聞、整合各方資源及實體活動等推廣方式，增加對於非洲的認識及想像，達成進一步的交流與發展。",
+      "url": "https://wowafrica.tw/",
+      "description": "wowAfrica 阿非卡為台灣最完整的非洲資訊平台，藉由資訊、新聞、整合各方資源及實體活動等推廣方式，增加對於非洲的認識及想像，達成進一步的交流與發展。",
       "highlights": [
         "負責制定整個網站基礎架構、架設測試和發佈流程，使用 React、Webpack、Gulp、CSS Modules、Redux 開發"
       ]
     },
     {
       "name": "Openstack Cinder Driver",
-      "creator": "Infortrend",
+      "type": "Firmware Driver",
       "category": "Infortrend",
       "startDate": "2015-04",
       "endDate": "2015-08",
-      "website": "https://review.openstack.org/#/c/177113/",
-      "summary": "Infortrend OpenStack Cinder Driver ，支援透過 iSCSI 或 FC 連結 Infortrend 儲存設備。",
+      "url": "https://review.openstack.org/#/c/177113/",
+      "description": "Infortrend OpenStack Cinder Driver ，支援透過 iSCSI 或 FC 連結 Infortrend 儲存設備。",
       "highlights": [
         "主要開發者，使用 CLI 操作儲存設備，獲得 Openstack Cinder 維護者審核通過，成為官方認證的 driver 之一"
       ]
     },
     {
       "name": "react-semantify",
-      "creator": "李俊緯",
-      "category": "Open Source",
+      "type": "React Library",
+      "entity": "Open Source",
       "startDate": "2014-12",
       "endDate": "2017-10",
-      "website": "http://jessy1092.github.io/react-semantify/",
-      "summary": "整合 React 和 Semantic UI，把 Semantic UI 元件包裝成 React component",
+      "url": "http://jessy1092.github.io/react-semantify/",
+      "description": "整合 React 和 Semantic UI，把 Semantic UI 元件包裝成 React component",
       "highlights": [
         "主要開發者，使用 Higher-order Component 制定各個 compoent properties，更彈性的處理 Semantic UI class name，後來受邀開發官方 Semantic-UI-React"
       ]
     },
     {
       "name": "hackforldr-2.0",
-      "creator": "ETBlue",
       "category": "g0v",
       "startDate": "2014-06",
       "endDate": "2014-10",
-      "website": "http://beta.hackfoldr.org/",
-      "summary": "Hackfoldr 是你的黑客公事包，用一個網址就可以和夥伴們分享所有的專案文件！",
+      "url": "http://beta.hackfoldr.org/",
+      "description": "Hackfoldr 是你的黑客公事包，用一個網址就可以和夥伴們分享所有的專案文件！",
       "highlights": [
         "維護者之一，幫忙打造開發和發佈的環境，使用 Browserify、Gulp 與 Travis-ci"
       ]
@@ -173,27 +229,19 @@
   ],
   "skills": [
     {
-      "name": "前端開發",
-      "level": "Senior",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "ES6",
-        "React",
-        "Webpack",
-        "Gulp"
-      ]
+      "name": "Front-End",
+      "level": "Master",
+      "keywords": ["ES6", "React", "TypeScript", "Webpack"]
     },
     {
-      "name": "軟韌體開發",
+      "name": "Blockchain",
+      "level": "Junior",
+      "keywords": ["solidity", "Rust"]
+    },
+    {
+      "name": "Frimware",
       "level": "Senior",
-      "keywords": [
-        "C",
-        "Python",
-        "iSCSI",
-        "OpenStack Cinder Driver"
-      ]
+      "keywords": ["C", "Python", "iSCSI", "OpenStack Cinder Driver"]
     }
   ],
   "languages": [
